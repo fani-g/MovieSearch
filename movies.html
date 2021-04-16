@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Movie DB </title>
+		<meta charset="utf-8">
+		<!--css file-->
+		
+		<!--jquery-->
+		<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<!--javascript file-->
+		<script src="javascript.js"></script>
+		
+	</head>
+		
+	<body>
+		<h2> Search Movies</h2>
+		<!--search bar-->
+		
+		<input onkeyup="getMovies(document.getElementById('qurybox').value,1)" id="qurybox" placeholder="Search Movies..."> 
+		<div class="cssgrid">
+			<div id="answer"></div>
+				
+			<footer>
+				<div id="pagination"></div>
+			</footer>
+		</div>
+        
+
+	</body>
+			
+</html>

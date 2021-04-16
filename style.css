@@ -1,0 +1,178 @@
+body {
+	background: #F6F6F6;
+    text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: #666;
+	line-height: 1.6;
+}
+
+h2
+{
+	color:	 #e05269;
+	text-shadow: 1px 1px  #821729;
+	
+}
+
+#qurybox
+{
+	margin-bottom:50px;
+	width:500px; 
+    padding:5px; 
+    border: 3px solid #e05269; 
+    background-color: 	#fcf4e8; 
+    text-align:center; 
+}
+
+#qurybox:focus
+{
+	border-color: #e05269;
+}
+
+.cssgrid {
+    display: grid;
+    grid-row-gap: 10px;
+	position:relative;
+}
+
+#answer {
+	display: grid;
+    grid-column-start: 2;
+    grid-column-end:11;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px 20px;
+}
+
+
+.results {
+    grid-column-end: span 2;
+    display: grid;
+    justify-items: center;
+	border-radius: 12px;
+	background-color:white;
+	box-shadow: 6px 4px 25px rgba(0, 0, 0, .1);
+	text-align: center;
+}
+
+.btn
+{
+	border-radius: 8px;	
+	margin-bottom:10px;
+	color:#e05269;
+}
+button:hover {
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24);
+}
+.results p{
+  width: 320px;
+  height:93px;
+     overflow: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+	position:relative;
+	margin:auto;
+	text-align:left;
+	
+}
+
+
+ul li{
+	line-height:200%
+}
+
+
+
+.movie{
+	position: fixed;
+    top: 55%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+ 	width:600px;
+	background-color:white;
+	box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+   
+}
+
+.movie p{
+	
+	text-align:left;
+	position:relative;
+	width:250px;
+	margin:auto;
+	
+}
+.movie title{
+	color:#e05269
+}
+.movie:hover {
+  box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2);
+}
+ 
+ .movie img{
+	height:400px;
+	width:300px;
+	float:left;
+	box-shadow:6px 4px 25px rgba(0, 0, 0, .1);
+
+}
+.movie .card{
+	height:400px;
+	overflow-y:scroll;
+	margin:auto;
+}
+
+.movie #imdblink p{
+	text-align: center;
+}
+.card-header{
+	text-align:center;
+	font-weight: bold;
+
+}
+
+
+@media(min-width:960px){
+  #answer .results{
+    height: 600px;
+    width:400px;
+  }
+
+  #answer .results img{
+    height:400px;
+	box-shadow:6px 4px 25px rgba(0, 0, 0, .1);
+   
+  	
+}
+
+
+footer {
+  padding-bottom: 20px;
+}
+
+#pagination{
+	position:absolute;
+	bottom: 0;
+    left:0; 
+    right:0;
+	
+}
+button{
+	color:#e05269;
+}
+a{
+	color:#e05269;
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #e87d8f;
+    margin: 1em 0; padding: 0; }
+.bold{
+	font-weight:bold;
+}
+
+
+
+
+
