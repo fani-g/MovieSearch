@@ -1,7 +1,7 @@
 # MovieSearch
 
 This mini project uses plain Javascript (JQuery for DOM Manipulation), HTML5 and CSS.
-One page with a search bar where the user searches the title of the movie and 
+One page with a search bar where the user searches the title of the movie and down below are listed the results from the searching:
 
 • The movie poster 
 • A short description of the movie 
