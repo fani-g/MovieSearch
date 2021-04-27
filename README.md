@@ -1,6 +1,6 @@
 # MovieSearch
 
-This mini project uses plain Javascript, HTML5 and CSS.
+This mini project uses plain Javascript (JQuery for DOM Manipulation), HTML5 and CSS.
 One page with a search bar where the user searches the title of the movie and 
 
 • The movie poster 
